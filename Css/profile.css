@@ -1,0 +1,22 @@
+.profile__left img {
+    height: 350px;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+
+.profile__right {
+    color: #fff;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+.profile__right h1 {
+    font-size: 50px;
+}
+
+.profile__right h2 {
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 20px;
+    width: 65%;
+}

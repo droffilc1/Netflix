@@ -1,0 +1,125 @@
+header {
+    background-image: url(/Images/main.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.home__opacity {
+    background-color: #000;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.home__logo {
+    height: 35px;
+    position: absolute;
+    filter: invert(21%) sepia(100%) saturate(5608%) hue-rotate(352deg) brightness(86%) contrast(106%);
+    top: 30px;
+    left: 50px;
+}
+
+.home__signinBtn {
+    padding: 8px 16px;
+    background-color:#E50914 ;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    
+}
+
+.home__content {
+    position: absolute;    
+    color: #fff;   
+    top: 34%;
+    left: 29.5%;   
+    
+}
+
+.home__content h1 {
+    font-size: 50px;
+    width: 60%;
+    text-align: center;
+    margin-bottom: 20px;    
+    
+}
+
+.home__content h2 {
+    margin-left: 70px;
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 20px;    
+}
+
+.home__content h3 {    
+    font-size: 19px;
+    font-weight: 400;
+    margin-bottom: 20px;   
+}
+
+.home__content--address input {
+    height: 55px;
+    width: 45%;
+    border: 1px solid #8C8C8C;
+    padding: 10px 10px 0;
+    font-size: 16px;    
+}
+
+.home__content--address span {
+    font-size: 28px;
+    background-color:#E50914 ;
+    padding: 12px 30px;
+    cursor: pointer;
+    word-spacing: 5px; 
+}
+
+form {
+    position: absolute;
+    background: #050607;
+    opacity: 75%;
+    height: 550px;
+    width: 450px;
+    border-radius: 5px;
+    top: 15%;
+    left: 30%;
+    display: none;
+   
+}
+
+form h1 {
+    font-size: 32px;
+}
+
+/* .home__signin {
+   
+} */
+
+.home__signin input {
+    display: block;
+    height: 45px;
+    width: 75%;
+    margin: 30px 50px;
+    background: #333333;
+    color: #563344;
+}
+
+.home__signin button {
+    padding: 15px 145px;
+    background-color:#E50914 ;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 50px;
+    
+}
+
+
+
+
+
