@@ -1,0 +1,156 @@
+footer {
+    background: #000;
+    height: 75vh;
+    width: 100%;
+    border-top: 8px solid #222;
+    display: flex;
+    position: relative;
+    
+    
+}
+
+.footer {
+    margin-top: 100px;
+    margin-left: 200px;
+    font-weight: 400;
+}
+
+.footer__questions {
+    text-decoration: none;    
+    color: #627575;    
+    font-size: 16px;    
+}
+
+.footer__questions::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background: #627575;
+    transform-origin: bottom;    
+}
+
+.footer__questions:hover::after {
+    width: 20%;
+}
+
+.footer__list {
+    display: flex;
+}
+
+.footer__items {
+    margin-top: 30px;
+}
+
+.footer__items ul li {
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.footer__items ul li a {
+    text-decoration: none;
+    color: #627575;
+}
+
+.footer__items ul li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background: #627575;
+    transform-origin: bottom;
+}
+
+.footer__items ul li a:hover::after {
+    width: 75%;
+}
+
+.footer__items1 {
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+.footer__items1 ul li {
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.footer__items1 ul li a {
+    text-decoration: none;
+    color: #627575;
+}
+
+.footer__items1 ul li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background: #627575;
+    transform-origin: bottom;
+}
+
+.footer__items1 ul li a:hover::after {
+    width: 75%;
+}
+
+.footer__items2 {
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+.footer__items2 ul li {
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.footer__items2 ul li a {
+    text-decoration: none;
+    color: #627575;
+}
+
+.footer__items2 ul li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background: #627575;
+    transform-origin: bottom;
+}
+
+.footer__items2 ul li a:hover::after {
+    width: 75%;
+}
+
+.footer__items3 {
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+.footer__items3 ul li {
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.footer__items3 ul li a {
+    text-decoration: none;
+    color: #627575;
+}
+
+.footer__items3 ul li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background: #627575;
+    transform-origin: bottom;
+}
+
+.footer__items3 ul li a:hover::after {
+    width: 75%;
+}
+
+.footer p {
+    color: #627575;
+    font-size: 14px;
+    margin-top: 50px;
+}

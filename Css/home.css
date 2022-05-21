@@ -79,46 +79,6 @@ header {
     word-spacing: 5px; 
 }
 
-form {
-    position: absolute;
-    background: #050607;
-    opacity: 75%;
-    height: 550px;
-    width: 450px;
-    border-radius: 5px;
-    top: 15%;
-    left: 30%;
-    display: none;
-   
-}
-
-form h1 {
-    font-size: 32px;
-}
-
-/* .home__signin {
-   
-} */
-
-.home__signin input {
-    display: block;
-    height: 45px;
-    width: 75%;
-    margin: 30px 50px;
-    background: #333333;
-    color: #563344;
-}
-
-.home__signin button {
-    padding: 15px 145px;
-    background-color:#E50914 ;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-left: 50px;
-    
-}
-
 
 
 

@@ -30,7 +30,7 @@
 }
 
 .quiz {
-    height: 120vh;
+    height: 130vh;
 }
 
 .questions__answers {
@@ -43,3 +43,29 @@
 .questions__answers p {
     margin: 0 15px;
 }
+
+.questions__address h3 {
+    font-size: 19px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 20px; 
+}
+
+.questions__address input {
+    height: 55px;
+    width: 45%;
+    border: 1px solid #8C8C8C;
+    padding: 10px 10px 0;
+    font-size: 16px; 
+}
+
+.questions__address span {
+    font-size: 28px;
+    background-color:#E50914 ;
+    padding: 12px 30px;
+    cursor: pointer;
+    word-spacing: 5px;
+    position: absolute;
+    right: 41%;
+}
+
